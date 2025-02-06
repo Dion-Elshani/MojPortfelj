@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacija za vreme</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Aplikacija za vreme</h1>
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Enter city name" required>
+            <button type="submit">Pridobi vreme</button>
+        </form>
+        <div id="weather-result" class="hidden">
+            <h2 id="city-name"></h2>
+            <img id="weather-icon" alt="Weather Icon">
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>
